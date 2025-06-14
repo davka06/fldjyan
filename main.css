@@ -1,0 +1,194 @@
+body{
+    background-color: #f1f1f1;
+    font-family: Arial;
+}
+
+/* HR */
+hr{
+  border-top: 2px solid #003147;
+  width: 95%;
+}
+
+/* SIDES & CONTAINER */
+.sides_container{
+    position: relative;
+    max-width: 1300px;
+    background: #fff;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    margin: 50px;
+    justify-self: center;
+}
+
+/* LEFT SIDE --- LEFT SIDE --- LEFT SIDE --- LEFT SIDE */
+
+.left_side{
+    position: relative;
+    background: #003147;
+    padding: 50px;
+
+    color: white;
+    font-size: 15px;
+    text-align: left;
+}
+
+/* COORDONNEES */
+.clear_list{
+    list-style-type: none;
+}
+
+.coordonnees{
+    font-size: 35px;
+    margin-bottom: 15%;
+}
+
+.centre_dinteret{
+    margin-top: 50%;
+}
+
+
+/* RIGHT SIDE --- RIGHT SIDE --- RIGHT SIDE --- RIGHT SIDE */
+.right_side{
+    position: relative;
+    background: #e1e1e1;
+}
+
+/* NOM */
+.nom{
+    text-align: center;
+    font-size: 40px;
+    color: #003147;
+}
+
+/* EXPERIENCES */
+.experience{
+    width: 100%;
+    padding: 0% 0% 7% 5%;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+.experience tr, td, th{
+    font-size: 20px;
+    padding: 3% 3% 0% 0%;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+
+/* LANGUES */
+.langues{
+    width: 100%;
+    padding: 0% 0% 7% 5%;
+    box-sizing: border-box;
+}
+
+p {
+    font-size: 20px;
+}
+
+.container {
+    background-color: rgb(192, 192, 192);
+    width: 80%;
+    border-radius: 15px;
+}
+
+.skill {
+    background-color: rgb(116, 194, 92);
+    color: white;
+    text-align: right;
+    font-size: 20px;
+    border-radius: 15px;
+    padding: 1%;
+    padding-right: 3%;
+}
+
+.francais_russe {
+    width: 100%;
+}
+
+.anglais {
+    width: 66%;
+}
+
+.italien {
+    width: 17%;
+}
+
+/* FORMATIONS */
+.education{
+    width: 100%;
+    padding: 0% 0% 7% 5%;
+    box-sizing: border-box;
+}
+
+table{
+    width: 100%;
+}
+
+.education tr, td, th{
+    font-size: 20px;
+    padding: 3% 3% 0% 0%;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+/* DIPLOMES */
+
+.diplomes{
+    width: 100%;
+    padding: 0% 0% 7% 5%;
+    box-sizing: border-box;
+}
+
+.diplomes li{
+    font-size: 20px;
+    padding: 2%;
+    box-sizing: border-box;
+    list-style-type: square;
+}
+
+/* IMAGES & CHILDS & ICONS*/
+
+img{
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    filter: grayscale(0%);
+}
+
+img:hover {
+    transform: scale(1.05);
+    filter: grayscale(100%);
+}
+
+a:link {
+    color: rgb(255, 255, 255);
+}
+
+a:visited {
+    color: white;
+}
+  
+a:hover {
+    color: #06e;
+}
+
+a:active {
+    color: #ffffff;
+}
+
+.material-icons {
+  vertical-align: middle;
+  font-size: 20px;
+  margin-right: 8px;
+  color: #808080;
+}
+
+h3 {
+    font-weight: bold;
+    padding: 1%;
+}
+
+.nowrap{
+    white-space: nowrap;
+}
