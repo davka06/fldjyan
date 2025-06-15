@@ -26,9 +26,7 @@ hr{
     position: relative;
     background: #003147;
     padding: 50px;
-
     color: white;
-    font-size: 15px;
     text-align: left;
 }
 
@@ -38,7 +36,6 @@ hr{
 }
 
 .coordonnees{
-    font-size: 35px;
     margin-bottom: 15%;
 }
 
